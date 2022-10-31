@@ -275,14 +275,12 @@ I learned that to shut down I would type:
     shutdown now
 
 
-# Instructions:
+# Video Instructions:
 
 VM operation and configuration: Show the following in your videoLog into the desktop environment (GUI)
 - open the VMware
 - right click on the sugar link on the far righ and demonstrate the settings
 - click play symbol to open sugar land
-- show each aspect of sugar
-- end the tour with the terminal
 
 Launch a shell and show the IP address of your VM
 - ip a
@@ -296,18 +294,31 @@ Show the sudoers
 Demonstrate some of your alias
 - type in 
 
-        h
-        l.
-        ls
+        h -- history
+        l. -- hidden files
+        ls -- list with color coding
 
 Launch a browser and navigate to your Github-pages hosted installation documentation and Harvey to show that you have Internet connectivity
 - go to the web on the sugar desktop and go tot Github pages.
 
 ssh into the class lab gateway
+- turn on the OpenConnect VPN
 - go to ssh sysadmin@10.10.1.133 and log into the class
 
 show any cool customizations (if any) you did
+- show each aspect of sugar
+- end the tour with the terminal
+
 - my major customization was the daunting task of using sugar. This was a major life decision. It altered the course of my life... FOREVER!
 
 Pick some package to install from the Arch User Repository (AUR)
-- 
+
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    less PKGBUILD 
+
+press q
+
+    make -si 
+
+VIDEO ENDED ;)
