@@ -322,3 +322,13 @@ press q
     make -si 
 
 VIDEO ENDED ;)
+
+
+# Screenshots of the VM
+
+## Image of the VM settings pre-log-in
+![view_of_the_vm_beforeclicking_the_play_button_to_initiate_the_vm.PNG](https://raw.githubusercontent.com/s-wayd/s-wayd.github.io/main/view_of_the_vm_before%20clicking_the_play_button_to_initiate_the_vm.PNG)
+
+## Image of the working VM
+![view_of_the_vm.PNG](https://raw.githubusercontent.com/s-wayd/s-wayd.github.io/main/view_of_the_vm.PNG)
+
