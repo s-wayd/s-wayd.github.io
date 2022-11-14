@@ -1,2 +1,2 @@
-[arch_project](https://s-wayd.github.io/ARCH_LINUX.md)
-[docker_project](https://s-wayd.github.io/docker_project.md)
+[ARCH_project](/ARCH_LINUX.md)
+[Docker_project](/docker_project.md)
