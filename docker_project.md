@@ -17,7 +17,7 @@ I then I used notepad to create a file with the yaml format.
 
     docker-compose.yaml
 
-After it opened a file in vim where I entered in the following information:
+After it opened a file in notepad where I entered in the following information:
 
     version: '3'
     services:
@@ -47,9 +47,18 @@ After it opened a file in vim where I entered in the following information:
     volumes:
         mysql_data:
 
+
 ## Step 4: Run WordPress with Docker Compose
-type in:
+The above information was ran in the terminal with this comand: 
 
     sudo docker-compose up -d
 
-    
+## Ending Notes:
+
+I used this link to follow instructions on the Docker Project:
+https://linuxiac.com/wordpress-with-docker/
+
+## Image of Admin Control Pannel
+
+![view_of_the_vm.PNG](https://raw.githubusercontent.com/s-wayd/s-wayd.github.io/main/view_of_docker_admin_pannel.PNG)
+
