@@ -65,4 +65,27 @@ Image of output provided:
 
 ![view_of_the_vm.PNG](https://raw.githubusercontent.com/s-wayd/s-wayd.github.io/main/4th%20Screenshot.png)
 
+# Bonus:
+## -> Task 4
 
+I went back into the nano exploit file and created a new file called:
+
+    nano ./exploit-2.py
+
+Then I made changes in the nano exploit-2 file as demonstrated in the image below: (changing the "+ L" to "+ 100" and adding a "*25" at the end of that same line)
+
+![view_of_the_vm.PNG](https://raw.githubusercontent.com/s-wayd/s-wayd.github.io/main/6th%20Screenshot.png)
+
+After exiting the nano, I typed the following commands:
+
+    ./exploit-2.py
+    ./stack-L2
+
+The resulting output was:
+
+    Input size: 517
+    #
+
+Which means that it was a successful completion!
+
+![view_of_the_vm.PNG](https://raw.githubusercontent.com/s-wayd/s-wayd.github.io/main/7th%20Screenshot.png)
